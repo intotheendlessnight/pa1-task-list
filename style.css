@@ -1,0 +1,56 @@
+@import url('https://googleapis.com');
+
+body {
+  font-family: Nunito, sans-serif;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  padding: 6px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.low {
+  background-color: #64e664;
+}
+
+.medium {
+  background-color: #bddb36;
+}
+
+.high {
+  background-color: #861111;
+}

@@ -1,7 +1,7 @@
 @import url('https://googleapis.com');
 
 body {
-  font-family: Nunito, sans-serif;
+  font-family: 'Nunito', sans-serif;
   max-width: 500px;
   margin: 40px auto;
   padding: 10px;
@@ -33,7 +33,7 @@ input, select, button {
   justify-content: space-between;
   align-items: center;
   border: 1px solid #ccc;
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 8px;
   border-radius: 4px;
 }
@@ -53,4 +53,5 @@ input, select, button {
 
 .high {
   background-color: #861111;
+  text-shadow: 2px 2px;
 }

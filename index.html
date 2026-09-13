@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>ChoreMachine3000</title>
+
+        <link rel="stylesheet" href="style.css"
+    </head>
+
+    <body>
+        <h1>ChoreMachine3000</h1>
+        <h3>You will write your tasks here and probably never look at them again</h3>
+
+        <form id="task-form">
+            <label for="task-input">Chore:</label>
+            <input id="task-input" type="text">
+            <label for="priority">Importance:</label>
+            <select id="priority">
+                <option value="low">probably not doing this</option>
+                <option value="medium">maybe i'll do it</option>
+                <option value="high">DO THIS OR THE WORLD ENDS</option>
+            </select>
+            <button type="submit">Add Chore</button>
+        </form>
+        <div id="task-list"></div>
+        <script src="script.js" defer></script>
+    </body>
+</html>
